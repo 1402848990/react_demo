@@ -1,0 +1,37 @@
+.inputTitle {
+  display: block;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  color: rgb(85, 83, 83);
+}
+.inputTitle::before {
+  content: "*";
+  color: red;
+}
+.itemname {
+  font-size: 13px;
+}
+.activeName {
+  margin-bottom: 20px;
+}
+#bondType {
+  width: 300px;
+  height: 20px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.deduction {
+  width: 80px;
+  height: 20px;
+  margin-bottom: 15px;
+}
+#bondNum {
+  width: 100px;
+}
+.havebond {
+  display: block;
+}
+.nobond {
+  display: none;
+}
